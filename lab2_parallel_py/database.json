@@ -1,6 +1,328 @@
 {
-    "38613056": {
+    "40378528": {
         "name": "Damir",
+        "truancies": 15,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 2
+            },
+            {
+                "name": "Russian language",
+                "grade": 4
+            },
+            {
+                "name": "English language",
+                "grade": 5
+            },
+            {
+                "name": "Sociology",
+                "grade": 2
+            },
+            {
+                "name": "Algorythms",
+                "grade": 4
+            },
+            {
+                "name": "Iformatics",
+                "grade": 3
+            },
+            {
+                "name": "System administration",
+                "grade": 5
+            },
+            {
+                "name": "Databases",
+                "grade": 3
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 5
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 3
+            }
+        ]
+    },
+    "40378560": {
+        "name": "Kirill",
+        "truancies": 1,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 2
+            },
+            {
+                "name": "Russian language",
+                "grade": 5
+            },
+            {
+                "name": "English language",
+                "grade": 5
+            },
+            {
+                "name": "Sociology",
+                "grade": 2
+            },
+            {
+                "name": "Algorythms",
+                "grade": 4
+            },
+            {
+                "name": "Iformatics",
+                "grade": 2
+            },
+            {
+                "name": "System administration",
+                "grade": 2
+            },
+            {
+                "name": "Databases",
+                "grade": 4
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 2
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 2
+            }
+        ]
+    },
+    "40378592": {
+        "name": "Irina",
+        "truancies": 2,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 4
+            },
+            {
+                "name": "Russian language",
+                "grade": 3
+            },
+            {
+                "name": "English language",
+                "grade": 2
+            },
+            {
+                "name": "Sociology",
+                "grade": 5
+            },
+            {
+                "name": "Algorythms",
+                "grade": 5
+            },
+            {
+                "name": "Iformatics",
+                "grade": 5
+            },
+            {
+                "name": "System administration",
+                "grade": 4
+            },
+            {
+                "name": "Databases",
+                "grade": 4
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 5
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 3
+            }
+        ]
+    },
+    "40378624": {
+        "name": "Vlad",
+        "truancies": 16,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 5
+            },
+            {
+                "name": "Russian language",
+                "grade": 2
+            },
+            {
+                "name": "English language",
+                "grade": 2
+            },
+            {
+                "name": "Sociology",
+                "grade": 2
+            },
+            {
+                "name": "Algorythms",
+                "grade": 4
+            },
+            {
+                "name": "Iformatics",
+                "grade": 4
+            },
+            {
+                "name": "System administration",
+                "grade": 4
+            },
+            {
+                "name": "Databases",
+                "grade": 4
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 3
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 3
+            }
+        ]
+    },
+    "40378656": {
+        "name": "Nastya",
+        "truancies": 9,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 2
+            },
+            {
+                "name": "Russian language",
+                "grade": 2
+            },
+            {
+                "name": "English language",
+                "grade": 3
+            },
+            {
+                "name": "Sociology",
+                "grade": 3
+            },
+            {
+                "name": "Algorythms",
+                "grade": 5
+            },
+            {
+                "name": "Iformatics",
+                "grade": 3
+            },
+            {
+                "name": "System administration",
+                "grade": 3
+            },
+            {
+                "name": "Databases",
+                "grade": 2
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 4
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 4
+            }
+        ]
+    },
+    "40378688": {
+        "name": "Danil",
+        "truancies": 7,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 4
+            },
+            {
+                "name": "Russian language",
+                "grade": 2
+            },
+            {
+                "name": "English language",
+                "grade": 3
+            },
+            {
+                "name": "Sociology",
+                "grade": 5
+            },
+            {
+                "name": "Algorythms",
+                "grade": 3
+            },
+            {
+                "name": "Iformatics",
+                "grade": 3
+            },
+            {
+                "name": "System administration",
+                "grade": 2
+            },
+            {
+                "name": "Databases",
+                "grade": 4
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 5
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 4
+            }
+        ]
+    },
+    "40378720": {
+        "name": "Misha",
+        "truancies": 12,
+        "subjects": [
+            {
+                "name": "History",
+                "grade": 5
+            },
+            {
+                "name": "Russian language",
+                "grade": 4
+            },
+            {
+                "name": "English language",
+                "grade": 2
+            },
+            {
+                "name": "Sociology",
+                "grade": 2
+            },
+            {
+                "name": "Algorythms",
+                "grade": 4
+            },
+            {
+                "name": "Iformatics",
+                "grade": 3
+            },
+            {
+                "name": "System administration",
+                "grade": 5
+            },
+            {
+                "name": "Databases",
+                "grade": 2
+            },
+            {
+                "name": "Linear algebra",
+                "grade": 2
+            },
+            {
+                "name": "Mathematical analysis",
+                "grade": 2
+            }
+        ]
+    },
+    "40378752": {
+        "name": "Andrey",
         "truancies": 25,
         "subjects": [
             {
@@ -9,241 +331,11 @@
             },
             {
                 "name": "Russian language",
-                "grade": 3
-            },
-            {
-                "name": "English language",
-                "grade": 4
-            },
-            {
-                "name": "Sociology",
                 "grade": 5
-            },
-            {
-                "name": "Algorythms",
-                "grade": 4
-            },
-            {
-                "name": "Iformatics",
-                "grade": 5
-            },
-            {
-                "name": "System administration",
-                "grade": 2
-            },
-            {
-                "name": "Databases",
-                "grade": 3
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 3
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 3
-            }
-        ]
-    },
-    "38613088": {
-        "name": "Kirill",
-        "truancies": 24,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 3
-            },
-            {
-                "name": "Russian language",
-                "grade": 4
-            },
-            {
-                "name": "English language",
-                "grade": 4
-            },
-            {
-                "name": "Sociology",
-                "grade": 4
-            },
-            {
-                "name": "Algorythms",
-                "grade": 2
-            },
-            {
-                "name": "Iformatics",
-                "grade": 2
-            },
-            {
-                "name": "System administration",
-                "grade": 5
-            },
-            {
-                "name": "Databases",
-                "grade": 2
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 3
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 2
-            }
-        ]
-    },
-    "38613120": {
-        "name": "Irina",
-        "truancies": 15,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 3
-            },
-            {
-                "name": "Russian language",
-                "grade": 4
             },
             {
                 "name": "English language",
                 "grade": 2
-            },
-            {
-                "name": "Sociology",
-                "grade": 4
-            },
-            {
-                "name": "Algorythms",
-                "grade": 2
-            },
-            {
-                "name": "Iformatics",
-                "grade": 5
-            },
-            {
-                "name": "System administration",
-                "grade": 4
-            },
-            {
-                "name": "Databases",
-                "grade": 3
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 2
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 4
-            }
-        ]
-    },
-    "38613152": {
-        "name": "Vlad",
-        "truancies": 28,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 5
-            },
-            {
-                "name": "Russian language",
-                "grade": 4
-            },
-            {
-                "name": "English language",
-                "grade": 2
-            },
-            {
-                "name": "Sociology",
-                "grade": 5
-            },
-            {
-                "name": "Algorythms",
-                "grade": 4
-            },
-            {
-                "name": "Iformatics",
-                "grade": 4
-            },
-            {
-                "name": "System administration",
-                "grade": 4
-            },
-            {
-                "name": "Databases",
-                "grade": 2
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 4
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 3
-            }
-        ]
-    },
-    "38613184": {
-        "name": "Nastya",
-        "truancies": 4,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 2
-            },
-            {
-                "name": "Russian language",
-                "grade": 4
-            },
-            {
-                "name": "English language",
-                "grade": 4
-            },
-            {
-                "name": "Sociology",
-                "grade": 5
-            },
-            {
-                "name": "Algorythms",
-                "grade": 2
-            },
-            {
-                "name": "Iformatics",
-                "grade": 5
-            },
-            {
-                "name": "System administration",
-                "grade": 2
-            },
-            {
-                "name": "Databases",
-                "grade": 5
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 4
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 2
-            }
-        ]
-    },
-    "38613216": {
-        "name": "Danil",
-        "truancies": 9,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 3
-            },
-            {
-                "name": "Russian language",
-                "grade": 3
-            },
-            {
-                "name": "English language",
-                "grade": 4
             },
             {
                 "name": "Sociology",
@@ -255,15 +347,15 @@
             },
             {
                 "name": "Iformatics",
-                "grade": 3
+                "grade": 2
             },
             {
                 "name": "System administration",
-                "grade": 5
+                "grade": 4
             },
             {
                 "name": "Databases",
-                "grade": 2
+                "grade": 3
             },
             {
                 "name": "Linear algebra",
@@ -271,99 +363,7 @@
             },
             {
                 "name": "Mathematical analysis",
-                "grade": 3
-            }
-        ]
-    },
-    "38613248": {
-        "name": "Misha",
-        "truancies": 11,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 5
-            },
-            {
-                "name": "Russian language",
-                "grade": 5
-            },
-            {
-                "name": "English language",
-                "grade": 4
-            },
-            {
-                "name": "Sociology",
-                "grade": 3
-            },
-            {
-                "name": "Algorythms",
-                "grade": 3
-            },
-            {
-                "name": "Iformatics",
-                "grade": 4
-            },
-            {
-                "name": "System administration",
                 "grade": 2
-            },
-            {
-                "name": "Databases",
-                "grade": 5
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 3
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 5
-            }
-        ]
-    },
-    "38613280": {
-        "name": "Andrey",
-        "truancies": 28,
-        "subjects": [
-            {
-                "name": "History",
-                "grade": 3
-            },
-            {
-                "name": "Russian language",
-                "grade": 3
-            },
-            {
-                "name": "English language",
-                "grade": 3
-            },
-            {
-                "name": "Sociology",
-                "grade": 3
-            },
-            {
-                "name": "Algorythms",
-                "grade": 4
-            },
-            {
-                "name": "Iformatics",
-                "grade": 3
-            },
-            {
-                "name": "System administration",
-                "grade": 2
-            },
-            {
-                "name": "Databases",
-                "grade": 4
-            },
-            {
-                "name": "Linear algebra",
-                "grade": 5
-            },
-            {
-                "name": "Mathematical analysis",
-                "grade": 3
             }
         ]
     }

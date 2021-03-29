@@ -10,7 +10,10 @@ subjects = [
     'System administration',
     'Databases',
     'Linear algebra',
-    'Mathematical analysis'
+    'Mathematical analysis',
+    'Biology',
+    'Ecology',
+    'Discrete math'
 ]
 
 students = [
@@ -21,7 +24,14 @@ students = [
     'Nastya',
     'Danil',
     'Misha',
-    'Andrey'
+    'Andrey',
+    'Kristina',
+    'Oleg',
+    'Vladimir',
+    'Alexey',
+    'John Doe',
+    'Felix',
+    'Arsen'
 ]
 
 def generate_truancies():

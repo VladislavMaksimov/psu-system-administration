@@ -21,7 +21,7 @@ except socket.error:
     sys.exit()
 
 while True:
-    cmd = input().strip()
+    cmd = input('> ').strip()
 
     if cmd == 'exit':
         connector.close()

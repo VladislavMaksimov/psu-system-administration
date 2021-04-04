@@ -68,6 +68,16 @@ class FileHandler(BaseRequestHandler):
                 return
         self.send_err('Нет темы с таким номером.')
 
+    def send(self, user, num, theme, message):
+        path = '\\'.join([self.__location__, user])
+        msg_file = ' '.join([num, theme]) + '.msg'
+        msg_path = '\\'.join([path, msg_file])
+        f = open(msg_path, 'w')
+        f.write(message)
+        self.send_succ('Сообщение отправлено.')
+
+
+
     # определяет поведение сервера
     def handle(self):
         while True:
@@ -116,3 +126,6 @@ class FileHandler(BaseRequestHandler):
                     self.send_err('Введите корректный номер сообщения.')
                 finally:
                     continue
+
+            if method == 'send':
+                self.send(*args)

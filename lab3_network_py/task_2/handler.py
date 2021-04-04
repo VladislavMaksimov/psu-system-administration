@@ -2,7 +2,7 @@ from socketserver import BaseRequestHandler
 import os
 
 class FileHandler(BaseRequestHandler):
-    methods = ['auth', 'list', 'read', 'send', 'help']
+    methods = ['auth', 'list', 'read', 'send', 'help', 'num']
     __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
     authorized = False
     user = None
@@ -58,7 +58,6 @@ class FileHandler(BaseRequestHandler):
         content = f.readlines()
         self.request.sendall(bytes(''.join(content), 'utf8'))
 
-
     def read(self, msg):
         messages = self.get_messages()
         for message in messages:
@@ -68,6 +67,17 @@ class FileHandler(BaseRequestHandler):
                 return
         self.send_err('Нет темы с таким номером.')
 
+    def num(self, user):
+        mnum = 0
+        messages = self.get_messages()
+        for message in messages:
+            print(message)
+            num, tail = message.split(' ')
+            if int(num) > mnum:
+                mnum = int(num)
+        self.request.sendall(bytes(str(mnum + 1), 'utf8'))
+
+
     def send(self, user, num, theme, message):
         path = '\\'.join([self.__location__, user])
         msg_file = ' '.join([num, theme]) + '.msg'
@@ -75,8 +85,6 @@ class FileHandler(BaseRequestHandler):
         f = open(msg_path, 'w')
         f.write(message)
         self.send_succ('Сообщение отправлено.')
-
-
 
     # определяет поведение сервера
     def handle(self):
@@ -127,5 +135,10 @@ class FileHandler(BaseRequestHandler):
                 finally:
                     continue
 
+            if method == 'num':
+                self.num(*args)
+                continue
+
             if method == 'send':
+                print(args)
                 self.send(*args)

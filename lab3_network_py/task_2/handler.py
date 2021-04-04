@@ -78,12 +78,13 @@ class FileHandler(BaseRequestHandler):
         self.request.sendall(bytes(str(mnum + 1), 'utf8'))
 
 
-    def send(self, user, num, theme, message):
+    def send(self, user, num, theme, *message):
+        message_str = ' '.join(message)
         path = '\\'.join([self.__location__, user])
         msg_file = ' '.join([num, theme]) + '.msg'
         msg_path = '\\'.join([path, msg_file])
         f = open(msg_path, 'w')
-        f.write(message)
+        f.write(message_str)
         self.send_succ('Сообщение отправлено.')
 
     # определяет поведение сервера

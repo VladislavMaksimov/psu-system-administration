@@ -33,22 +33,20 @@ class FileHandler(BaseRequestHandler):
         accounts = f.readlines()
         for account in accounts:
             correct_user, correct_pas = account.split(' ')
-            print(correct_pas)
-            print(correct_user)
             if user.strip() == correct_user.strip() and pas.strip() == correct_pas.strip():
                 self.user = user
                 return True
         return False
 
-    def get_messages(self):
-        path = '\\'.join([self.__location__, self.user])
+    def get_messages(self, user):
+        path = '\\'.join([self.__location__, user])
         directory = os.listdir(path)
         files = [ f for f in directory if os.path.isfile('\\'.join([path,f]))]
         messages = [ f for f in files if f.endswith(".msg") ]
         return messages
 
     def list(self):
-        messages = self.get_messages()
+        messages = self.get_messages(self.user)
         messages_str = ' '.join(messages)
         if len(messages) > 0:
             self.request.sendall(bytes(messages_str, 'utf8'))
@@ -62,7 +60,7 @@ class FileHandler(BaseRequestHandler):
         self.request.sendall(bytes(''.join(content), 'utf8'))
 
     def read(self, msg):
-        messages = self.get_messages()
+        messages = self.get_messages(self.user)
         for message in messages:
             num, theme = message.split(' ')
             if int(num) == int(msg):
@@ -72,9 +70,8 @@ class FileHandler(BaseRequestHandler):
 
     def num(self, user):
         mnum = 0
-        messages = self.get_messages()
+        messages = self.get_messages(user)
         for message in messages:
-            print(message)
             num, tail = message.split(' ')
             if int(num) > mnum:
                 mnum = int(num)
@@ -143,5 +140,4 @@ class FileHandler(BaseRequestHandler):
                 continue
 
             if method == 'send':
-                print(args)
                 self.send(*args)

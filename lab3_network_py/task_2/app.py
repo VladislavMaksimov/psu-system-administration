@@ -1,6 +1,6 @@
-from socketserver import TCPServer
+from socketserver import ThreadingTCPServer
 from handler import FileHandler
 
 host, port = "localhost", 3000
-server = TCPServer((host, port), FileHandler)
+server = ThreadingTCPServer((host, port), FileHandler)
 server.serve_forever()

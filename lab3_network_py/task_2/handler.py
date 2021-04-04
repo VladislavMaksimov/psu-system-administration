@@ -30,12 +30,15 @@ class FileHandler(BaseRequestHandler):
         if self.authorized == True:
             return True
         f = open(os.path.join(self.__location__, 'pass'))
-        correct_user, correct_pas = f.readlines()
-        if user.strip() == correct_user.strip() and pas.strip() == correct_pas.strip():
-            self.user = user
-            return True
-        else:
-            return False
+        accounts = f.readlines()
+        for account in accounts:
+            correct_user, correct_pas = account.split(' ')
+            print(correct_pas)
+            print(correct_user)
+            if user.strip() == correct_user.strip() and pas.strip() == correct_pas.strip():
+                self.user = user
+                return True
+        return False
 
     def get_messages(self):
         path = '\\'.join([self.__location__, self.user])
